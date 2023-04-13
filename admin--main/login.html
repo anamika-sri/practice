@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+    <style>
+      a {
+        text-decoration: none;
+        color: #4b49ac;
+        font-size: larger;
+        font-weight: 600;
+        margin-left: 50px;
+      }
+      .card {
+        margin-top: 50%;
+      }
+      @media screen and (min-width: 600px) {
+        .card {
+          background-color: pink;
+          margin-top: 50%;
+        }
+      }
+      @media screen and (max-width: 900px) {
+        .card {
+          background-color: skyblue;
+          margin-top: 30%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="row d-flex justify-content-center">
+      <div class="col-lg-3 align-self-center">
+        <div class="card p-5">
+          <div class="card-body text-center">
+            <img src="logo.jpeg" />
+            <h4>Hello! let's get started</h4>
+            <p>Sign in to continue.</p>
+          </div>
+          <form>
+            <div class="form-group mt-3 me-5 ms-5">
+              <label for="formGroupExampleInput">Email</label>
+              <input class="form-control mt-3" type="text" placeholder="" />
+            </div>
+            <div class="form-group mt-3 me-5 ms-5">
+              <label for="formGroupExampleInput2">Password</label>
+              <input class="form-control mt-3" type="text" placeholder=" " />
+            </div>
+          </form>
+          <button type="button" class="btn btn-light mt-4 mb-3 ms-5 me-5 p-3">
+            Log In
+          </button>
+          <a href="">Sign Up</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Opayd</title>
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top d-flex align-items-center">
+      <div class="d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo d-flex align-items-center">
+          <img src="logo.jpeg" alt="" />
+        </a>
+        <i class="bi bi-list toggle-sidebar-btn"></i>
+      </div>
+
+      <nav class="header-nav ms-auto">
+        <ul class="d-flex align-items-center">
+          <li class="nav-item dropdown pe-5">
+            <a
+              class="nav-link nav-profile d-flex align-items-center pe-0"
+              href="#"
+              data-bs-toggle="dropdown"
+            >
+              <img
+                src="assets/img/profile-img.jpg"
+                alt="Profile"
+                class="rounded-circle"
+              />
+            </a>
+
+            <ul
+              class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile"
+            >
+              <li>
+                <a
+                  class="dropdown-item d-flex align-items-center"
+                  href="users profile.html"
+                >
+                  <i class="bi bi-person"></i>
+                  <span>Edit Profile</span>
+                </a>
+              </li>
+
+              <li>
+                <a
+                  class="dropdown-item d-flex align-items-center"
+                  href="login.html"
+                >
+                  <i class="bi bi-box-arrow-right"></i>
+                  <span>Log Out</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Sidebar ======= -->
+    <aside id="sidebar" class="sidebar">
+      <ul class="sidebar-nav" id="sidebar-nav">
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="Dashboard.html">
+            <i class="bi bi-grid"></i>
+            <span>Dashboard</span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="Manage_companies.html">
+            <i class="bi bi-people"></i><span>Manage user</span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="Manage_Companies.html">
+            <i class="bi bi-people"></i><span>Manage Companies</span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="Manage_employee.html">
+            <i class="bi bi-people"></i><span>Manage Employee</span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="Manage_Clients.html">
+            <i class="bi-qr-code"></i><span>Manage Clients</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="Manage_QR-Codes.html">
+            <i class="bi-qr-code"></i><span> Manage QR-Codes</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="Manage_Timesheet.html">
+            <i class="bi-qr-code"></i><span>Manage Timesheet</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="Manage_Feedbacks.html">
+            <i class="bi-qr-code"></i><span>Manage Feedbacks</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="Manage_Invoice.html">
+            <i class="bi bi-receipt"></i><span>Manage Invoice</span>
+          </a>
+        </li>
+      </ul>
+    </aside>
+    <!-- End Sidebar-->
+    <main id="main" class="main">
+      <section class="section">
+        <div class="card">
+          <div class="card-body">
+            <div class="col-lg">
+              <div class="d-flex justify-content-between mt-3">
+                <p class="card-title justify-content-center">Add User</p>
+                <div class="text-center">
+                  <a href="Manage_users.html" class="button btn btn-light p-2">
+                    <i class="bi bi-arrow-left me-3"></i>Back
+                  </a>
+                </div>
+              </div>
+              <form action="">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group mt-3">
+                      <label for="formGroupExampleInput">First Name</label>
+                      <input
+                        class="form-control mt-3"
+                        type="text"
+                        placeholder=" "
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group mt-3">
+                      <label for="formGroupExampleInput">Last Name</label>
+                      <input
+                        class="form-control mt-3"
+                        type="text"
+                        placeholder=" "
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group mt-3">
+                      <label for="formGroupExampleInput"> Email</label>
+                      <input
+                        class="form-control mt-3"
+                        type="text"
+                        placeholder=" "
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group mt-3">
+                      <label for="formGroupExampleInput2">Password</label>
+                      <input
+                        class="form-control mt-3"
+                        type="text"
+                        placeholder=" "
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group mt-3">
+                      <label for="formGroupExampleInput2"
+                        >Confirm Password
+                      </label>
+                      <input type="text" class="form-control mt-3" />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group mt-3">
+                      <label for="formGroupExampleInput2">Contact Number</label>
+                      <input type="text" class="form-control mt-3" />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <p class="card-title mt-3">Company Details</p>
+                    <div class="form-group">
+                      <label for="formGroupExampleInput2">Company Name</label>
+                      <input
+                        type="text"
+                        class="form-control w-100 mt-3"
+                        id="formGroupExampleInput2"
+                        placeholder=""
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group mt-3">
+                      <label for="formGroupExampleInput2">
+                        Address Line 1</label
+                      >
+                      <input
+                        type=""
+                        class="form-control w-100 mt-3"
+                        id="formGroupExampleInput2"
+                        placeholder=""
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group mt-3">
+                      <label for="formGroupExampleInput2">Address Line 2</label>
+                      <input
+                        type=""
+                        class="form-control w-100 mt-3"
+                        id="formGroupExampleInput2"
+                        placeholder=""
+                        value=""
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group mt-3">
+                      <label for="formGroupExampleInput2">City/Town</label>
+                      <input type="text" class="form-control mt-2" />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group mt-3">
+                      <label for="formGroupExampleInput2">City/Town</label>
+                      <input type="text" class="form-control mt-2" />
+                    </div>
+                  </div>
+                </div>
+                <button type="button" class="btn btn-light mt-4 mb-5 p-2">
+                  Submit
+                </button>
+                <!-- End Table with hoverable rows -->
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- End #main -->
+    <!-- ======= Footer ======= -->
+    <!-- <footer id="footer" class="footer"></footer> -->
+    <!-- End Footer -->
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/chart.js/chart.umd.js"></script>
+    <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
